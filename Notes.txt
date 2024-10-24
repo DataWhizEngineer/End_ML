@@ -1,0 +1,10 @@
+## Why Use -e . (Editable Mode)?
+
+Editable mode allows you to develop your package without constantly reinstalling it after changes.
+It's convenient during development.
+The -e . points to the current directory (.), so Python will use the current folder's package as an editable installation.
+
+## The __init__.py file is important for several reasons:
+
+Package Recognition: It tells Python that the directory containing it should be treated as a package.
+ Without this file, Python will not recognize the directory as a package, and you won't be able to import any modules from it.
